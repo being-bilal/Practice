@@ -30,8 +30,8 @@ hsv_image = cv.merge((h_new, s, v)) #merging the new hsv chanels
 modified_img = cv.cvtColor(hsv_image, cv.COLOR_HSV2BGR) #converting back to rgb with new hue value
 
 
-"""
+
 cv.imshow("modified image", modified_img)
 cv.imshow('original image', img)
 cv.waitKey(0)
-"""
+
