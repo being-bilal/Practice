@@ -1,5 +1,13 @@
 # tuple : immutable - ordered
-tuple_1 = (1, 2, 3, 4, 2, 5, 2, )
+tuple_1 = (
+    1,
+    2,
+    3,
+    4,
+    2,
+    5,
+    2,
+)
 print(f"original name  : {tuple_1}")
 # tuple[index] is used to access a single item from the tuple.
 print(f"tuple[2]       : {tuple_1[2]}")
