@@ -1,4 +1,12 @@
-# dictionary : unordered - mutable
+# HASHMAPS
+# Hashmaps are data structures that store key-value pairs, allowing for fast retrieval of values based on their keys.
+# Dictionaries are python implementation of hash maps, they are mutable and unordered collections of key-value pairs.
+
+# Hash maps uses hash functions which converts a string key to an integer to compute an index, where the value is stored.
+# index = h % table_size (h = Hash_function(key))
+
+# In a hash map, a collision occurs when two different keys produce the same hash index.
+# Hashmaps have an average time complexity of O(1) for lookups, insertions, and deletions.
 dict_1 = {"Tony stark": "ironman", "bruce wayne": "batman"}
 print(f"original dictionary  : {dict_1}")
 # to add a item in a dictionary dict_name[key] = value
